@@ -1,0 +1,52 @@
+.description {
+    font-family: Georgia, serif;
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.user {
+    text-align: center;
+}
+
+.user-icon {
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+}
+
+.sign_in {
+    text-decoration: none;
+    color:rgb(75, 85, 149);
+}
+
+.sign_in:hover {
+    text-decoration: underline;
+}
+
+.nav-button-center {
+    font-family: serif;
+    font-size: 40px;
+    margin: 0 auto;
+    display: block;
+    background-color: gainsboro;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 400px;
+
+    transition: background-color 0.15s,
+      color 0.15s;
+}
+
+.nav-button-center:hover{
+    background-color: rgba(128, 128, 128, 0.721);
+    color: white;
+}}
