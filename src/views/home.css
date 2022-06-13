@@ -1,0 +1,108 @@
+.title {
+  font-family: Georgia, serif;
+  margin-top: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.nav-button-center {
+  cursor: pointer;
+  border-radius: 1em;
+  color: #fff;
+  background: #ffa000;
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: "Ubuntu", sans-serif;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 15px;
+  -webkit-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  color: black;
+  min-width: 600px;
+  height: 400px;
+  -webkit-box-shadow: 0, 0, 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0, 0, 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #ffa000;
+  color: #ffffff;
+  text-align: left;
+}
+
+.outer {
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.input-event {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 8px;
+}
+
+.add-participant {
+  list-style-type: none;
+}
+.add-participant input {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 8px;
+  outline: none;
+}
+.add-participant button {
+  cursor: pointer;
+  background-color: #ffa000;
+  color: white;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 8px;
+}
+
+.edit-event-button {
+  cursor: pointer;
+  background-color: #ffa000;
+  color: white;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 8px;
+}
+
+.input-event:focus {
+  background-color: #c0c0c0;
+  outline: none;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #babec4;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 3px solid #ffa000;
+}
+/*# sourceMappingURL=auditorium.css.map */
