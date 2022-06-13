@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+body {
+  font-family: "Comic Sans MS" !important;
+}
+.title {
+  margin-top: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.nav-button-center {
+  cursor: pointer;
+  border-radius: 1em;
+  color: #fff;
+  background: #ffa000;
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 18em;
+  font-size: 15px;
+  -webkit-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9em;
+  min-width: 700px;
+  height: 400px;
+  -webkit-box-shadow: 0, 0, 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0, 0, 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #ffa000;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #babec4;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 3px solid #ffa000;
+}
+
+.button-edit {
+  font-size: 17px;
+  margin: 0 auto;
+  display: block;
+  background-color: gainsboro;
+  border-style: solid;
+  border-width: 0px;
+  color: black;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 70px;
+  -webkit-transition: background-color 0.15s, color 0.15s;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.button-edit:hover {
+  background-color: #ffa000;
+  color: white;
+}
+/*# sourceMappingURL=reservation.css.map */

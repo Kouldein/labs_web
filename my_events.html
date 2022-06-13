@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>reservation</title>
+    <link rel="stylesheet" href="style/my_events.css" />
+  </head>
+  <body>
+    <div class="title">
+      <br />
+      <i>My events</i>
+    </div>
+
+    <div>
+      <br />
+      <button
+        class="nav-button-center"
+        onclick="document.location = 'home.html'"
+      >
+        <i>Home</i>
+      </button>
+    </div>
+    <div>
+        <br />
+        <button
+            class="nav-button-center"
+            >
+              <i>New Event</i>
+        </button>
+    </div> 
+
+    <div>
+      <table class="styled-table">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Date</th>
+            <th>Participation</th>
+            <th>Change</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Karpatians</td>
+            <td>Fdsfwergwergqedqf</td>
+            <td>2023-5-28 12:30:00</td>
+            <td>
+              <ul>
+                <li><input placeholder="Username"></input></li>
+                <li><button>add participant</button></li>
+              </ul>
+            </td>
+            <td>
+              <button
+                class="button-edit"
+                onclick="document.location = 'update_reservation.html'"
+              >
+                edit
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>username2</td>
+            <td>20</td>
+            <td>2023-5-28 15:00:00</td>
+            <td>
+              <ul>
+                <li><input placeholder="Username"></input></li>
+                <li><button>add participant</button></li>
+              </ul>
+            </td>
+            <td>
+              <button
+                class="button-edit"
+                onclick="document.location = 'update_reservation.html'"
+              >
+                edit
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>username3</td>
+            <td>30</td>
+            <td>2023-5-30 11:00:00</td>
+            <td>
+                <ul>
+                    <li><input placeholder="Username"></input></li>
+                    <li><button>add participant</button></li>
+                </ul>
+            </td>
+            <td>
+              <button
+                class="button-edit"
+                onclick="document.location = 'update_reservation.html'"
+              >
+                edit
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
